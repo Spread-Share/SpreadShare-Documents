@@ -2,7 +2,7 @@
 
 :toc: left
 :sectnums:
-:toclevels: 1
+:toclevels: 4
 :table-caption:
 :linkattrs:
 

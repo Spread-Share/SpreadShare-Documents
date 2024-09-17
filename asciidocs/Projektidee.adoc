@@ -1,0 +1,17 @@
+= SpreadShare
+:toc: left
+:sectnums:
+:toclevels: 2
+:table-caption:
+:linkattrs:
+
+== Projektidee
+
+=== Ist-Zustand
+
+Die Papierverschwendung ist enorm. Bei Werbungen, Flyern, Broschüren und anderen Printmedien wird oft nicht auf die Umwelt geachtet. Die meisten Menschen werfen diese nach kurzer Zeit weg.
+
+=== Soll-Zustand
+
+Die Digitalisierung soll dazu beitragen, dass weniger Papier und somit weniger Ressourcen verschwendet werden. Mittels einem Bluetooth Beacon soll der Nutzer automatisch die gewünschte Information auf seinem Smartphone ohne jegliche weitere Interaktion erhalten. Falls gewünscht, kann der Nutzer die Information auch speichern und später wieder abrufen. Dem Besitzer des Beacons wird die Möglichkeit gegeben, mittels der Applikation die Informationen zu verwalten und zu aktualisieren. 
+

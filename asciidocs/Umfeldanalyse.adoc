@@ -1,0 +1,56 @@
+= Umfeldanalyse
+
+:toc: left
+:sectnums:
+:toclevels: 1
+:table-caption:
+:linkattrs:
+
+== Marktanalyse
+
+* Zielgruppe:
+Alle welche Werbungen Flyer, Broschüren und andere Printmedien verteilen.
+Diese Gruppen würden von der Digitalisierung und dem Erhalt von Informationen auf dem Smartphone profitieren.
+
+* Marktnachfrage nach Digitalisierung:
+Die Nachfrage nach digitalen Lösungen zur Ressourcenshonung nimmt zu, da viele Unternehmen und Verbraucher zunehmend auf Nachhaltigkeit
+und Umweltfreundlichkeit achten.
+
+* Mitbewerbanalyse:
+Es gibt bis dato keine Applikation, mit der man seinen Beacon so formen kann, wie man will. 
+
+=== Technologische Analyse
+
+* Bluetooth Beacon Technologie:
+Die Reichweite eines Bluetooth Beacons ist einstellbar von ca. einem Meter bis zu 300 Meter.
+Dabei senden Beacons in demselben Frequenzbereich wie Wireless LAN. Die Sendeleistung liegt bei maximal 100mW und beträgt damit nur einen 
+Bruchteil der Sendeleistung eines aktuellen Handys.
+Das Nutzen von Beacons in geschlossenen Räumen hat keinen Unterschied.
+
+* Technik:
+Der Energieverbrauch hängt von der Sendeleistung und den Sendenintervallen ab.
+Bei kurzen Sendeintervallen und hohen Sendeleistungen, rechnet man mit einer Baterielaufzeit von 1 bis 6 Monate.
+Bei durchschnittlichen Einstellungen mit 6 Monate bis 2 Jahren.
+Ein Beacon mit einer CR2032-Batterie, einem Sendeintervall von 1000 ms und einer mittleren Sendeleistung kann eine Lebensdauer
+von etwa 1 bis 2 Jahren erreichen.
+
+==== Umweltanalyse
+
+* Ökologische Vorteile:
+Durch den Ersatz von Printmedien durch digitale Informationsverteilung kann die Umweltbelastung erheblich reduziert werden.
+
+* Nachhaltigkeit:
+Die steigende Nachfrage nach ökologisch nachhaltigen Lösungen in der Gesellschaft und in Unternehmen, sind ein starker Anreiz für die Einführung dieses Projekts.
+
+
+===== Wirtschaftliche Analyse
+
+* Kostenanalyse:
+Die Kosten für Bluetooth Beacons hängen stark von den technischen Anforderungen ab. In der Regel kann man mit folgenden Kosten rechnen:
+Einfache Beacons (Reichweite bis zu 50 Meter, Batterielebensdauer von 1-2 Jahren): 10-30EUR
+Hochwertige Beacons (Reichweite bis zu 300 Meter, Outdoor Nutzung, Batterielebensdauer bis zu 5 Jahren): 30-100EUR
+
+* Mögliche Einnahmequellen
+    * Verkauf von Beacons und App-Abonnements
+    * Werbeeinahmen
+

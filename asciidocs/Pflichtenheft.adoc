@@ -1,0 +1,73 @@
+= Pflichtenheft SpreadShare
+:toc: left
+:sectnums:
+:toclevels: 1
+:table-caption:
+
+Version: 1.0
+
+Version Date: 17-09-2024
+
+Authors:
+
+* a.saydam@students.htl-leonding.ac.at
+* f.stroschneider@students.htl-leonding.ac.at
+* a.kurtic@students.htl-leonding.ac.at
+* a.ignac@students.htl-leonding.ac.at
+
+== Beschreibung der Ausgangslage
+
+Viele Organisationen, politische Parteien, besonders während wichtiger Wahlkämpfe, verteilen Papierflyer mit den wichtigsten Informationen, wofür sie stehen.
+
+== Ist-Zustand
+
+Zurzeit werden Flyer in ausgedruckter Form ausgehändigt.
+
+== Problemstellung
+
+In der aktuellen Situation erhält jeder Passant einen Flyer, jedoch besteht nicht bei jedem Interesse, und die Printmedien werden an der nächsten „geeigneten“ Stelle entsorgt.
+
+== Aufgabenstellung
+
+=== Funktionale Anforderungen
+
+Es soll möglich sein, mithilfe eines Bluetooth-Beacons Daten auf das Smartphone zu empfangen, wobei eine Vorschau des Inhalts angezeigt wird.
+
+Gegebenenfalls kann der Inhalt lokal heruntergeladen werden, sofern Interesse besteht, andernfalls schließt man das Pop-up-Fenster.
+
+=== Nicht-funktionale Anforderungen
+
+* Sicherheitsanforderung
+** Die Daten sollen vor Dritten geschützt werden.
+
+* Zuverlässigkeit
+** Das System soll, in einer vorhersehbaren und zuverlässigen Weise zu funktionieren.
+
+* Benutzbarkeit
+** Das System soll, so gestaltet werden, dass es einfach und intuitiv von Benutzern verwendet werden kann.
+
+* Effizienz
+** Das System soll die Ressourcen effizient nutzen.
+
+* Übertragbarkeit
+** Das System soll, auf andere Systeme oder Umgebungen übertragen werden können.
+
+* Wartbarkeit
+** Das System soll, Wartung- und Reparaturarbeiten in einfacher und schneller Weise durchführen können.
+
+== Zielsetzung
+
+Den Verbrauch von Printmedien, Werbung und Flyern zu minimieren und die Umwelt sauber zu halten.
+
+== Rahmenbedingungen
+
+Programmiersprache: 
+Datenbank: 
+
+== Administratives
+
+----
+Kontakt: a.saydam@students.htl-leonding.ac.at
+
+Team: Saydam, Stroschneider, Kurtic und Ignac
+----

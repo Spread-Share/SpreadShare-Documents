@@ -10,8 +10,9 @@
 [cols="1, 1, 1, 1, 4, 1", options="header"]
 |===
 | *Datum* | *Beginn (Uhrzeit)* | *Ende (Uhrzeit)* | *Dauer (Minuten)* | *Beschreibung* | *Issue Nummer*
-| | | | | |
-| | | | *0* | |
+| 17.09.2024| 19:50 | 20:10 | 20 | Erstellung der Projetidee |
+| 17.09.2024| 20:10 | 20:50 | 40 | Erstellen des Mockups |
+| | | | *60* | |
 |===
 
 == Fabian Stroschneider
@@ -19,12 +20,13 @@
 [cols="1, 1, 1, 1, 4, 1", options="header"]
 |===
 | *Datum* | *Beginn (Uhrzeit)* | *Ende (Uhrzeit)* | *Dauer (Minuten)* | *Beschreibung* | *Issue Nummer*
-| | | | | |
-| 17.09.2024 | 19:55 | 21:01 | 61 | Erstellung des Projektauftrags & Pflichtenheft | -
-| 17.09.2024 | 21:02 | 21:09| 7 | Erstellen der Arbeitsstunden | -
-| 17.09.2024 | 21:10 | 21:14 | 4 | Erstellen der .gitignore file | -
-| | | | | |
-| | | | *72* | |
+
+| 17.09.2024 | 19:55 | 21:01 | 66 | Erstellung des Projektauftrags & |
+| 17.09.2024 | 19:55 | 20:10:01 | 50 | Erstellung den des Mockups & Pflichtenheft | 
+| 17.09.2024 | 21:02 | 21:09| 7 | Erstellen der Arbeitsstunden | 
+| 17.09.2024 | 21:10 | 21:14 | 4 | Erstellen der .gitignore file |  
+
+| | | | *77* | |
 |===
 
 == Ademir Kurtic

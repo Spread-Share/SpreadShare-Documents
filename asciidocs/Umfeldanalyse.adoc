@@ -19,7 +19,7 @@ und Umweltfreundlichkeit achten.
 * Mitbewerbanalyse:
 Es gibt bis dato keine Applikation, mit der man seinen Beacon so formen kann, wie man will. 
 
-=== Technologische Analyse
+== Technologische Analyse
 
 * Bluetooth Beacon Technologie:
 Die Reichweite eines Bluetooth Beacons ist einstellbar von ca. einem Meter bis zu 300 Meter.
@@ -34,7 +34,7 @@ Bei durchschnittlichen Einstellungen mit 6 Monate bis 2 Jahren.
 Ein Beacon mit einer CR2032-Batterie, einem Sendeintervall von 1000 ms und einer mittleren Sendeleistung kann eine Lebensdauer
 von etwa 1 bis 2 Jahren erreichen.
 
-==== Umweltanalyse
+== Umweltanalyse
 
 * Ökologische Vorteile:
 Durch den Ersatz von Printmedien durch digitale Informationsverteilung kann die Umweltbelastung erheblich reduziert werden.
@@ -43,7 +43,7 @@ Durch den Ersatz von Printmedien durch digitale Informationsverteilung kann die 
 Die steigende Nachfrage nach ökologisch nachhaltigen Lösungen in der Gesellschaft und in Unternehmen, sind ein starker Anreiz für die Einführung dieses Projekts.
 
 
-===== Wirtschaftliche Analyse
+== Wirtschaftliche Analyse
 
 * Kostenanalyse:
 Die Kosten für Bluetooth Beacons hängen stark von den technischen Anforderungen ab. In der Regel kann man mit folgenden Kosten rechnen:

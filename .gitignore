@@ -93,6 +93,8 @@ Temporary Items
 # *.iml
 # *.ipr
 
+dist/*
+
 # CMake
 cmake-build-*/
 

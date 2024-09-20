@@ -1,0 +1,5 @@
+:revealjs_theme: white
+:customcss: css/presentation.css
+
+[.title]
+= SpreadShare

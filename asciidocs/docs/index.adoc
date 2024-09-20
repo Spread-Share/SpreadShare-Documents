@@ -1,0 +1,26 @@
+= Dokumentation SpreadShare
+:toc: left
+:sectnums:
+:toclevels: 1
+:table-caption:
+:linkattrs:
+
+----
+Kontakt: a.saydam@students.htl-leonding.ac.at
+         f.stroschneider@students.htl-leonding.ac.at
+----
+
+== Projektidee
+https://2324-3bhif-teaching.github.io/SpreadShare/Projektidee[Projektidee]
+
+== Projektauftrag
+https://2324-3bhif-teaching.github.io/SpreadShare/Projektauftrag[Projektauftrag]
+
+== Pflichtenheft
+https://2324-3bhif-teaching.github.io/SpreadShare/Pflichtenheft[Pflichtenheft]
+
+== Arbeitsstunden
+https://2324-3bhif-teaching.github.io/SpreadShare/Arbeitsstunden[Arbeitsstunden]
+
+== Slides
+RevealJs Slides can be found https://2324-3bhif-teaching.github.io/SpreadShare/slides[here^]

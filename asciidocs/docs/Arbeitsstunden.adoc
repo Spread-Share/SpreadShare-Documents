@@ -27,8 +27,9 @@
 | 17.09.2024 | 21:02 | 21:09| 7 | Erstellen der Arbeitsstunden | 
 | 17.09.2024 | 21:10 | 21:14 | 4 | Erstellen der .gitignore file |  
 | 20.09.2024 | 17:29 | 18:07 | 38 | Gh-Action für deployen der adoc files |
+| 20.09.2024 | 18:23| 18:56 | 33 | Reveal-js erstellen |
 | | | | | |
-| | | | *115* | |
+| | | | *148* | |
 |===
 
 == Ademir Kurtic

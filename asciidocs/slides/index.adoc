@@ -1,5 +1,64 @@
-:revealjs_theme: white
+:revdate: {docdate}
+:encoding: utf-8
+:lang: de
+:doctype: article
+:icons: font
 :customcss: css/presentation.css
+:revealjs_theme: black
+:revealjs_width: 1408
+:revealjs_height: 792
+:source-highlighter: highlightjs
+ifdef::env-ide[]
+:imagesdir: ../img
+endif::[]
+ifndef::env-ide[]
+:imagesdir: img
+endif::[]
+:title-slide-transition: zoom
+:title-slide-transition-speed: fast
+:title-slide-background-image: title-background.png
 
-[.title]
 = SpreadShare
+
+No more Paperwaste
+
+[.lightbg,background-opacity="0.2"]
+== Wieso SpreadShare?
+image::solution-background.png[background]
+
+[.lightbg,background-opacity="0.2"]
+=== Problem
+image::solution-background.png[background]
+
+* Zu viel Papiermüll
+** Werbung
+** Flyer
+** Prospekte
+
+[.lightbg,background-opacity="0.2"]
+== Lösung
+image::solution-background.png[background]
+
+* SpreadShare
+** inhalte bequem auf dem Handy anzeigen lassen
+
+[.lightbg,background-opacity="0.2"]
+== Ziel
+image::solution-background.png[background]
+
+* weniger Müll
+* mehr Klimaschutz
+
+[.lightbg,background-opacity="0.2"]
+== Umsetzung
+image::ble-background.png[background]
+
+* BLE Beacon
+** Bluetooth Low Energy
+* Sender-Receiver
+** Beacons senden Signale
+** Geräte empfangen diese ausgesendeten Signale 
+* Push-Nachrichten
+** Durch empfangen triggert es eine Notification
+* Anwendung 
+** Marketing für standortbasierte Angebote

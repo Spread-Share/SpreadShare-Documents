@@ -27,7 +27,7 @@ Kontakt: a.saydam@students.htl-leonding.ac.at
 | Projektziel(e) | Den Werbenden sowie potenziellen Interessenten ein 
                         angenehmeres und umweltbewussteres Umfeld zu schaffen.
 | Projektbeschreibung | Die Anwendung ermöglicht es Interessenten, mittels
-                         eines Bluetooth Beacons Daten zu empfangen. Dadurch ersparen sie sich den Papierflyer und können stattdessen eine Vorschau auf ihrem Handy sehen und den Flyer bei Bedarf herunterladen.
+                         eines Bluetooth Beacons Daten zu empfangen. Dadurch ersparen sie sich den Papierflyer, Broschüren, Speisekarten und können stattdessen eine Vorschau auf ihrem Handy sehen und diesen bei Bedarf herunterladen.
 |===
 
 == Projektphasen / Meilensteine
@@ -50,7 +50,7 @@ Hier finden Sie unsere https://github.com/SaydamArda/SpreadShare/milestones[Meil
 |===
 | Projektrisiken | Fehlendes Interesse aufgrund der potenziellen Gefahr 
                     durch Viren oder Ähnliches.
-| Projektorganisation | Projektleiter: Arda Sayda,
+| Projektorganisation | Projektleiter: Arda Saydam
 
                         Projektteam: Fabian Stroschneider, Ademir Kurtic,
                         Antonio Ignac

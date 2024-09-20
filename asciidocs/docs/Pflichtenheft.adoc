@@ -17,11 +17,11 @@ Authors:
 
 == Beschreibung der Ausgangslage
 
-Viele Organisationen, politische Parteien, besonders während wichtiger Wahlkämpfe, verteilen Papierflyer mit den wichtigsten Informationen, wofür sie stehen.
+Viele Organisationen, politische Parteien, besonders während wichtiger Wahlkämpfe, verteilen Papierflyer mit den wichtigsten Informationen, wofür sie stehen. Werbungen, Flyer, Broschüren und Speisekarten in Restaurants sind nur einige Beispiele, die in Papierform verteilt werden. Die meisten Menschen nehmen diese ohne echtes Interesse an und entsorgen sie anschließend.
 
 == Ist-Zustand
 
-Zurzeit werden Flyer in ausgedruckter Form ausgehändigt.
+Die Papierverschwendung ist enorm. Bei Werbungen, Flyern, Broschüren und anderen Printmedien wird oft nicht auf die Umwelt geachtet. Die meisten Menschen werfen diese nach kurzer Zeit weg.
 
 == Problemstellung
 
@@ -31,9 +31,11 @@ In der aktuellen Situation erhält jeder Passant einen Flyer, jedoch besteht nic
 
 === Funktionale Anforderungen
 
-Es soll möglich sein, mithilfe eines Bluetooth-Beacons Daten auf das Smartphone zu empfangen, wobei eine Vorschau des Inhalts angezeigt wird.
+Die Applikation soll auf Android (zzg. IOS) laufen. Dazu soll auch noch eine Website zu Verwaltung des Beacons erstellt werden. In der Applikation wird es zwei verschiedene Zugangsversionen geben, einmal für den Benutzer und einmal für den Beacon-Inhaber. Der Benutzer soll die Möglichkeit haben einzustellen ob die Applikation im Hintergrund läuft und damit auch die Benachrichtungen erhält ob ein Beacon in der Nähe ist. Falls der Benutzer die Benachrichtungen nicht erhalten möchte, kann er diese Einstellung deaktivieren. Dem Benutzer wird die Möglichkeit gegeben die erhaltenen Inhalte in seiner App zu Speichern. 
 
-Gegebenenfalls kann der Inhalt lokal heruntergeladen werden, sofern Interesse besteht, andernfalls schließt man das Pop-up-Fenster.
+Formate wie PDF, JPG und PNG sollen unterstützt werden. Der Benutzer hat die Möglichkeit die Inhalte auch lokal zu speichern - Diese Option wird ihm vorgeschlagen.
+
+Der Beacon-Inhaber wird die Möglichkeit haben, seinen Beacon entweder mit der Applikation oder der Website zu verwalten. Vorrausgesetzt wird das der Inhaber sich in der Nähe seines Beacons befindet. Mittels einer Drag&Drop Funktion soll dem Inhaber die erleichterte Verwaltung seines Beacons ermöglicht werden. Dem Inhaber soll auf einer Karte angezeigt werden wo sich ein Beacon befindet
 
 === Nicht-funktionale Anforderungen
 
@@ -57,12 +59,17 @@ Gegebenenfalls kann der Inhalt lokal heruntergeladen werden, sofern Interesse be
 
 == Zielsetzung
 
-Den Verbrauch von Printmedien, Werbung und Flyern zu minimieren und die Umwelt sauber zu halten.
+Den Verbrauch von Printmedien, Werbung, Flyern und Speisekarten zu minimieren und die Umwelt sauber zu halten.
 
 == Rahmenbedingungen
 
-Programmiersprache: 
-Datenbank: 
+Programmiersprache: Kotlin
+
+Betriebssystem: Android, IOS
+
+BLE (Bluetooth Low Energy) Beacon / Esp32
+
+Datenbank: ?
 
 == Administratives
 

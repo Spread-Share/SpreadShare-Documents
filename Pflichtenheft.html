@@ -490,7 +490,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_beschreibung_der_ausgangslage"><a class="anchor" href="#_beschreibung_der_ausgangslage"></a>1. Beschreibung der Ausgangslage</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Viele Organisationen, politische Parteien, besonders während wichtiger Wahlkämpfe, verteilen Papierflyer mit den wichtigsten Informationen, wofür sie stehen.</p>
+<p>Viele Organisationen, politische Parteien, besonders während wichtiger Wahlkämpfe, verteilen Papierflyer mit den wichtigsten Informationen, wofür sie stehen. Werbungen, Flyer, Broschüren und Speisekarten in Restaurants sind nur einige Beispiele, die in Papierform verteilt werden. Die meisten Menschen nehmen diese ohne echtes Interesse an und entsorgen sie anschließend.</p>
 </div>
 </div>
 </div>
@@ -498,7 +498,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_ist_zustand"><a class="anchor" href="#_ist_zustand"></a>2. Ist-Zustand</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Zurzeit werden Flyer in ausgedruckter Form ausgehändigt.</p>
+<p>Die Papierverschwendung ist enorm. Bei Werbungen, Flyern, Broschüren und anderen Printmedien wird oft nicht auf die Umwelt geachtet. Die meisten Menschen werfen diese nach kurzer Zeit weg.</p>
 </div>
 </div>
 </div>
@@ -516,10 +516,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_funktionale_anforderungen"><a class="anchor" href="#_funktionale_anforderungen"></a>4.1. Funktionale Anforderungen</h3>
 <div class="paragraph">
-<p>Es soll möglich sein, mithilfe eines Bluetooth-Beacons Daten auf das Smartphone zu empfangen, wobei eine Vorschau des Inhalts angezeigt wird.</p>
+<p>Die Applikation soll auf Android (zzg. IOS) laufen. Dazu soll auch noch eine Website zu Verwaltung des Beacons erstellt werden. In der Applikation wird es zwei verschiedene Zugangsversionen geben, einmal für den Benutzer und einmal für den Beacon-Inhaber. Der Benutzer soll die Möglichkeit haben einzustellen ob die Applikation im Hintergrund läuft und damit auch die Benachrichtungen erhält ob ein Beacon in der Nähe ist. Falls der Benutzer die Benachrichtungen nicht erhalten möchte, kann er diese Einstellung deaktivieren. Dem Benutzer wird die Möglichkeit gegeben die erhaltenen Inhalte in seiner App zu Speichern.</p>
 </div>
 <div class="paragraph">
-<p>Gegebenenfalls kann der Inhalt lokal heruntergeladen werden, sofern Interesse besteht, andernfalls schließt man das Pop-up-Fenster.</p>
+<p>Formate wie PDF, JPG und PNG sollen unterstützt werden. Der Benutzer hat die Möglichkeit die Inhalte auch lokal zu speichern - Diese Option wird ihm vorgeschlagen.</p>
+</div>
+<div class="paragraph">
+<p>Der Beacon-Inhaber wird die Möglichkeit haben, seinen Beacon entweder mit der Applikation oder der Website zu verwalten. Vorrausgesetzt wird das der Inhaber sich in der Nähe seines Beacons befindet. Mittels einer Drag&amp;Drop Funktion soll dem Inhaber die erleichterte Verwaltung seines Beacons ermöglicht werden. Dem Inhaber soll auf einer Karte angezeigt werden wo sich ein Beacon befindet</p>
 </div>
 </div>
 <div class="sect2">
@@ -595,7 +598,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_zielsetzung"><a class="anchor" href="#_zielsetzung"></a>5. Zielsetzung</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Den Verbrauch von Printmedien, Werbung und Flyern zu minimieren und die Umwelt sauber zu halten.</p>
+<p>Den Verbrauch von Printmedien, Werbung, Flyern und Speisekarten zu minimieren und die Umwelt sauber zu halten.</p>
 </div>
 </div>
 </div>
@@ -603,8 +606,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_rahmenbedingungen"><a class="anchor" href="#_rahmenbedingungen"></a>6. Rahmenbedingungen</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Programmiersprache:
-Datenbank:</p>
+<p>Programmiersprache: Kotlin</p>
+</div>
+<div class="paragraph">
+<p>Betriebssystem: Android, IOS</p>
+</div>
+<div class="paragraph">
+<p>BLE (Bluetooth Low Energy) Beacon / Esp32</p>
+</div>
+<div class="paragraph">
+<p>Datenbank: ?</p>
 </div>
 </div>
 </div>
@@ -623,7 +634,7 @@ Team: Saydam, Stroschneider, Kurtic und Ignac</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-09-20 16:11:18 UTC
+Last updated 2024-09-20 16:36:34 UTC
 </div>
 </div>
 </body>

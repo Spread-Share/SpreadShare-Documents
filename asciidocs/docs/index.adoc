@@ -11,16 +11,16 @@ Kontakt: a.saydam@students.htl-leonding.ac.at
 ----
 
 == Projektidee
-https://2324-3bhif-teaching.github.io/SpreadShare/Projektidee[Projektidee]
+https://saydamarda.github.io/SpreadShare/Projektidee[Projektidee]
 
 == Projektauftrag
-https://2324-3bhif-teaching.github.io/SpreadShare/Projektauftrag[Projektauftrag]
+https://saydamarda.github.io/SpreadShare/Projektauftrag[Projektauftrag]
 
 == Pflichtenheft
-https://2324-3bhif-teaching.github.io/SpreadShare/Pflichtenheft[Pflichtenheft]
+https://saydamarda.github.io/SpreadShare/Pflichtenheft[Pflichtenheft]
 
 == Arbeitsstunden
-https://2324-3bhif-teaching.github.io/SpreadShare/Arbeitsstunden[Arbeitsstunden]
+https://saydamarda.github.io/SpreadShare/Arbeitsstunden[Arbeitsstunden]
 
 == Slides
-RevealJs Slides can be found https://2324-3bhif-teaching.github.io/SpreadShare/slides[here^]
+RevealJs Slides can be found https://saydamarda.github.io/SpreadShare/slides[here^]

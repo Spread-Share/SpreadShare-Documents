@@ -12,9 +12,11 @@
 | *Datum* | *Beginn (Uhrzeit)* | *Ende (Uhrzeit)* | *Dauer (Minuten)* | *Beschreibung* | *Issue Nummer*
 | | | | | |
 | 17.09.2024| 19:50 | 20:10 | 20 | Erstellung der Projetidee |
-| 17.09.2024| 20:10 | 20:50 | 40 | Erstellen des Mockups |
+| 17.09.2024| 20:10 | 20:50 | 40 | Erstellen teile des Mockups |
+| 20.09.2024| 17:40 | 18:00 | 20 | Pflichtenheft überarbeten |
+| 20.09.2024| 18:50 | 20:00 | 70 | Weitere Mockups erstellt |
 | | | | | |
-| | | | *60* | |
+| | | | *150* | |
 |===
 
 == Fabian Stroschneider

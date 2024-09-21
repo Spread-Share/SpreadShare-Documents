@@ -70,3 +70,9 @@ image::ble-background.png[background]
 ** Geräte empfangen diese ausgesendeten Signale 
 * Push-Nachrichten
 ** Durch empfangen triggert es eine Notification
+
+[.lightbg,background-opacity="0.2"]
+== Aktivitäts Diagramm
+image::solution-background.png[background]
+
+plantuml::./plantuml/Aktivitaetsdiagramm.puml[]

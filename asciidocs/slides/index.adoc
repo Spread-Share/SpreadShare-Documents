@@ -18,9 +18,18 @@ endif::[]
 :title-slide-transition-speed: fast
 :title-slide-background-image: title-background.png
 
+[.title]
 = SpreadShare
 
 No more Paperwaste
+
+[pass]
+++++
+<script>
+    let header = document.getElementsByClassName("title")[0];
+    header.innerHTML = "<h1><span class=\"highlight\">Spread</span><span class=\"bigFont\">Share</span></h1>"
+</script>
+++++
 
 [.lightbg,background-opacity="0.2"]
 == Wieso SpreadShare?
@@ -36,18 +45,19 @@ image::solution-background.png[background]
 ** Prospekte
 
 [.lightbg,background-opacity="0.2"]
-== Lösung
+=== Lösung
 image::solution-background.png[background]
 
 * SpreadShare
 ** inhalte bequem auf dem Handy anzeigen lassen
 
 [.lightbg,background-opacity="0.2"]
-== Ziel
+=== Ziel
 image::solution-background.png[background]
 
 * weniger Müll
 * mehr Klimaschutz
+* bequemere Verbeitung von Informationen
 
 [.lightbg,background-opacity="0.2"]
 == Umsetzung
@@ -60,5 +70,3 @@ image::ble-background.png[background]
 ** Geräte empfangen diese ausgesendeten Signale 
 * Push-Nachrichten
 ** Durch empfangen triggert es eine Notification
-* Anwendung 
-** Marketing für standortbasierte Angebote

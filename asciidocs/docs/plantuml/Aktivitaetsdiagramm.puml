@@ -1,0 +1,28 @@
+@startuml SpreadShare
+
+start
+while (prospective customer wants to receive Spreads) is (true)
+
+    :prospective customer opens the SpreadShare app;
+
+    if(prospective customer wants to see a specific Spread) then (true)
+        :prospective customer clicks the Spread they want;
+        :prospective customer receives a preview of the Spread;
+
+        if (prospective customer wants to save the Spread locally) then (true)
+            :prospective customer selects the path where it will be stored;
+
+        else (false)
+        endif
+
+        :prospective customer reads the Spread;
+
+    else (false)
+    endif
+
+    :prospective customer receives other Spreads nearby;
+
+endwhile (false)
+end
+
+@enduml

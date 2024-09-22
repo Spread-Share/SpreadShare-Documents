@@ -1,0 +1,63 @@
+@startuml
+left to right direction
+
+actor User as usr
+
+rectangle "Login" {
+    usecase "Login" as UC_Login
+    usecase "Register" as UC_Register
+    
+    rectangle "Database" {
+        usecase "Get user" as UC_GetUser
+        usecase "Save user" as UC_SaveUser
+    }
+}
+
+usr --> UC_Login : "Enter username/password"
+UC_Login --> UC_GetUser : "Get user from database"
+
+
+usr --> UC_Register : "Enter username/password"
+UC_Register --> UC_SaveUser : "Save user to database"
+
+UC_Login --> UC_Register : "User does not exist"
+
+actor User as usr1
+
+rectangle "Notification" {
+    usecase "Notifications ON" as UC_NotificationsON
+    usecase "Notifications OFF" as UC_NotificationsOFF
+}
+usr1-->UC_NotificationsON : "Turn notifications ON"
+UC_NotificationsON-->usr1 : "Notify when new Spread is available"
+
+usr1-->UC_NotificationsOFF : "Turn notifications OFF"
+
+actor User as usr2
+
+rectangle content{
+    usecase "New Spread" as UC_Content
+    rectangle "Database" as DB {
+        usecase "Get content" as UC_GetContent
+    }
+}
+
+usr2 --> UC_Content : "Click on Notification"
+UC_Content --> UC_GetContent : "Get content from database"
+UC_GetContent --> UC_Content : "Send content"
+UC_Content --> usr2 : "Show content"
+
+actor User as usr3
+
+usecase "Get Spread" as UC_GetSpread
+rectangle "Save Spread"{
+    usecase "Save Spread" as UC_SaveSpread
+    rectangle "Database" as DB1 {
+        usecase "Saved to Database" as UC_SaveSpreadDB
+    }
+}
+usr3 --> UC_GetSpread : "Click on Spread"
+UC_GetSpread --> UC_SaveSpread : "Save Spread"
+UC_SaveSpread --> UC_SaveSpreadDB : "Save Spread to database"
+
+@enduml

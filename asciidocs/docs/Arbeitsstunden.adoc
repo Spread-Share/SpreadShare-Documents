@@ -42,8 +42,8 @@
 | *Datum* | *Beginn (Uhrzeit)* | *Ende (Uhrzeit)* | *Dauer (Minuten)* | *Beschreibung* | *Issue Nummer*
 | | | | | |
 | 17.09.2024|22:20|23:10 |50 |Powerpoint erstellt |
-| | | | | |
-| | | | *50* | |
+| 21.09.2024| 22:00|23:10 |70 |User Stories erstellt |
+| | | | *120* | |
 |===
 
 == Antonio Ignac

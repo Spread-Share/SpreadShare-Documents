@@ -31,8 +31,9 @@
 | 20.09.2024 | 17:29 | 18:07 | 38 | Gh-Action für deployen der adoc files |
 | 20.09.2024 | 18:23 | 18:56 | 33 | Reveal-js erstellen |
 | 21.09.2024 | 10:03 | 10:43 | 40 | Aktivitätsdiagramm erstellt |
+| 26.09.2024 | 10:08 | 10:16 | 8 | Usecasediagramm gefixt |
 | | | | | |
-| | | | *188* | |
+| | | | *196* | |
 |===
 
 == Ademir Kurtic

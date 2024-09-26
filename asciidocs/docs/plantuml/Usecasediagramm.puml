@@ -1,4 +1,5 @@
-@startuml
+@startuml UsecaseDiagram
+
 left to right direction
 
 actor User as usr
@@ -60,12 +61,7 @@ usr3 --> UC_GetSpread : "Click on Spread"
 UC_GetSpread --> UC_SaveSpread : "Save Spread"
 UC_SaveSpread --> UC_SaveSpreadDB : "Save Spread to database"
 
-@enduml
-
-@startuml
-left to right direction
-
-actor "User" as User
+actor "User" as usr4
 
 rectangle "SpreadShare" {
    usecase "Save local" as UC_SaveLocal
@@ -76,16 +72,12 @@ rectangle "SpreadShare" {
    usecase "Delete Content" as UC_DeleteContentFromDatabase
    }
 }
-User --> UC_SaveLocal : "Save content on device"
+usr4 --> UC_SaveLocal : "Save content on device"
 UC_SaveLocal <--> UC_Content : "Get Content from database"
 UC_SaveLocal --> User : "User saves Content"
 User --> UC_DeleteContent : "Delete recived Content"
 UC_DeleteContent --> UC_Content : "Get Content from Database"
 UC_Content --> UC_DeleteContentFromDatabase : "Delete Content from Database"
-
-@enduml
-@startuml
-left to right direction
 
 actor "Admin" as Admin1
 

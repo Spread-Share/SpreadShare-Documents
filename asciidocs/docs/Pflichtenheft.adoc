@@ -4,9 +4,9 @@
 :toclevels: 1
 :table-caption:
 
-Version: 1.0
+Version: 1.1
 
-Version Date: 17-09-2024
+Version Date: 21-09-2024
 
 Authors:
 
@@ -56,6 +56,17 @@ Der Beacon-Inhaber wird die Möglichkeit haben, seinen Beacon entweder mit der A
 
 * Wartbarkeit
 ** Das System soll, Wartung- und Reparaturarbeiten in einfacher und schneller Weise durchführen können.
+
+== Diagramme
+
+.Use-case Diagramm
+[%collapsible]
+====
+[plantuml, Usecasediagramme, png]
+----
+include::plantuml/Usecasediagramm.puml[]
+----
+====
 
 == Zielsetzung
 

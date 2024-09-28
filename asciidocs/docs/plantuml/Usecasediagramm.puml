@@ -1,0 +1,140 @@
+@startuml UsecaseDiagram
+
+left to right direction
+
+actor User as usr
+
+rectangle "Login" {
+    usecase "Login" as UC_Login
+    usecase "Register" as UC_Register
+    
+    rectangle "Database" {
+        usecase "Get user" as UC_GetUser
+        usecase "Save user" as UC_SaveUser
+    }
+}
+
+usr --> UC_Login : "Enter username/password"
+UC_Login --> UC_GetUser : "Get user from database"
+
+
+usr --> UC_Register : "Enter username/password"
+UC_Register --> UC_SaveUser : "Save user to database"
+
+UC_Login --> UC_Register : "User does not exist"
+
+actor User as usr1
+
+rectangle "Notification" {
+    usecase "Notifications ON" as UC_NotificationsON
+    usecase "Notifications OFF" as UC_NotificationsOFF
+}
+usr1-->UC_NotificationsON : "Turn notifications ON"
+UC_NotificationsON-->usr1 : "Notify when new Spread is available"
+
+usr1-->UC_NotificationsOFF : "Turn notifications OFF"
+
+actor User as usr2
+
+rectangle content{
+    usecase "New Spread" as UC_Content
+    rectangle "Database" as DB {
+        usecase "Get content" as UC_GetContent
+    }
+}
+
+usr2 --> UC_Content : "Click on Notification"
+UC_Content --> UC_GetContent : "Get content from database"
+UC_GetContent --> UC_Content : "Send content"
+UC_Content --> usr2 : "Show content"
+
+actor User as usr3
+
+usecase "Get Spread" as UC_GetSpread
+rectangle "Save Spread"{
+    usecase "Save Spread" as UC_SaveSpread
+    rectangle "Database" as DB1 {
+        usecase "Saved to Database" as UC_SaveSpreadDB
+    }
+}
+usr3 --> UC_GetSpread : "Click on Spread"
+UC_GetSpread --> UC_SaveSpread : "Save Spread"
+UC_SaveSpread --> UC_SaveSpreadDB : "Save Spread to database"
+
+actor "User" as usr4
+
+rectangle "SpreadShare" {
+   usecase "Save local" as UC_SaveLocal
+   usecase "Delete Content" as UC_DeleteContent
+   
+   rectangle "Database" {
+   usecase "Get Content" as UC_Content
+   usecase "Delete Content" as UC_DeleteContentFromDatabase
+   }
+}
+usr4 --> UC_SaveLocal : "Save content on device"
+UC_SaveLocal <--> UC_Content : "Get Content from database"
+UC_SaveLocal --> User : "User saves Content"
+User --> UC_DeleteContent : "Delete recived Content"
+UC_DeleteContent --> UC_Content : "Get Content from Database"
+UC_Content --> UC_DeleteContentFromDatabase : "Delete Content from Database"
+
+actor "Admin" as Admin1
+
+rectangle "Login" {
+   usecase "Login" as UC_Login
+   usecase "Register" as UC_Register
+   rectangle "Database" as DB1 {
+      usecase "Get User" as UC_GetUser
+      usecase "Save User" as UC_SaveUser
+   }
+}
+usecase "Fail" as UC_Fail
+Admin1 --> UC_Login : "Login with username and password"
+UC_Login --> UC_GetUser : "Get user from database"
+UC_GetUser --> UC_Fail : "Failed to verify User"
+Admin1 --> UC_Register : "Enters data to register"
+UC_Register --> UC_SaveUser : "Saves new user to database"
+
+actor "Admin" as Admin2
+
+rectangle "Add Beacon" {
+   usecase "Add new Beacon" as UC_AddBeacon
+   rectangle "Database" as DB2 {
+      usecase "Save Beacon" as UC_SaveBeacon
+   }
+}
+Admin2 --> UC_AddBeacon : "Add New Beacon"
+UC_AddBeacon --> UC_SaveBeacon : "Saves Beacon to database"
+
+actor "Admin" as Admin3
+
+rectangle "Delete Beacon" {
+   usecase "Delete Beacon" as UC_DeleteBeacon
+   rectangle "Database" as DB3 {
+      usecase "Delete Beacon" as UC_DeleteBeaconFromDatabase
+   }
+}
+
+Admin3 --> UC_DeleteBeacon : "Remove a existing Beacon"
+UC_DeleteBeacon --> UC_DeleteBeaconFromDatabase : "Delete Beacon from database"
+
+actor "Admin" as Admin4
+
+rectangle "Upload Content" {
+   usecase "Change Content" as UC_ChangeContent
+   rectangle "Database" as DB4 {
+      usecase "Change Beacons Content" as UC_ChangeContentInDatabase
+   }
+}
+Admin4 <--> UC_ChangeContent : "Admin uploads Content"
+UC_ChangeContent ---> UC_ChangeContentInDatabase : "Saves new Content to database"
+
+actor "Admin" as Admin5
+
+rectangle "Map" {
+   usecase "Open Map" as UC_OpenMap
+}
+Admin5 <--> UC_OpenMap : "Shows Admin where his Beacon is"
+
+@enduml

@@ -29,9 +29,11 @@
 | 17.09.2024 | 21:02 | 21:09| 7 | Erstellen der Arbeitsstunden | 
 | 17.09.2024 | 21:10 | 21:14 | 4 | Erstellen der .gitignore file |  
 | 20.09.2024 | 17:29 | 18:07 | 38 | Gh-Action für deployen der adoc files |
-| 20.09.2024 | 18:23| 18:56 | 33 | Reveal-js erstellen |
+| 20.09.2024 | 18:23 | 18:56 | 33 | Reveal-js erstellen |
+| 21.09.2024 | 10:03 | 10:43 | 40 | Aktivitätsdiagramm erstellt |
+| 26.09.2024 | 10:08 | 10:16 | 8 | Usecasediagramm gefixt |
 | | | | | |
-| | | | *148* | |
+| | | | *196* | |
 |===
 
 == Ademir Kurtic
@@ -41,8 +43,8 @@
 | *Datum* | *Beginn (Uhrzeit)* | *Ende (Uhrzeit)* | *Dauer (Minuten)* | *Beschreibung* | *Issue Nummer*
 | | | | | |
 | 17.09.2024|22:20|23:10 |50 |Powerpoint erstellt |
-| | | | | |
-| | | | *50* | |
+| 21.09.2024| 22:00|23:10 |70 |User Stories erstellt |
+| | | | *120* | |
 |===
 
 == Antonio Ignac

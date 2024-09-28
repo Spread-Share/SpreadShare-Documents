@@ -58,6 +58,7 @@ void setup() {
   // Create the BLE Device
   BLEDevice::init("ESP32 as iBeacon");
 
+
   // Create the BLE Server
   BLEServer *pServer = BLEDevice::createServer(); // <-- no longer required to instantiate BLEServer, less flash and ram usage
   pAdvertising = BLEDevice::getAdvertising();

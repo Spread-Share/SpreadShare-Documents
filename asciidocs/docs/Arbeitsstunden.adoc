@@ -55,5 +55,7 @@
 |===
 | *Datum* | *Beginn (Uhrzeit)* | *Ende (Uhrzeit)* | *Dauer (Minuten)* | *Beschreibung* | *Issue Nummer*
 | | | | | |
-| | | | *0* | |
+| 17.09.2024 | 19:00 | 20:30 | 90 | Erstellung der Umfeldanalyse |
+| 30.09.2024 | 10:00 | 11:00 | 30 | Login Seite erstellt |
+| | | | *120* | |
 |===

@@ -46,7 +46,8 @@
 | | | | | |
 | 17.09.2024|22:20|23:10 |50 |Powerpoint erstellt |
 | 21.09.2024| 22:00|23:10 |70 |User Stories erstellt |
-| | | | *120* | |
+| 7.10.2024| 20:30|22:10 |100 |AddBeacon button erstellt, Returnen der UUIDs|
+| | | | *220* | |
 |===
 
 == Antonio Ignac

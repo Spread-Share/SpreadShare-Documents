@@ -34,8 +34,9 @@
 | 20.09.2024 | 18:23 | 18:56 | 33 | Reveal-js erstellen |
 | 21.09.2024 | 10:03 | 10:43 | 40 | Aktivitätsdiagramm erstellt |
 | 26.09.2024 | 10:08 | 10:16 | 8 | Usecasediagramm gefixt |
+| 09.10.2024 | 19:23 | 19:46 | 23 | Schreiben des Projektantrags |
 | | | | | |
-| | | | *196* | |
+| | | | *219* | |
 |===
 
 == Ademir Kurtic
@@ -47,6 +48,7 @@
 | 17.09.2024|22:20|23:10 |50 |Powerpoint erstellt |
 | 21.09.2024| 22:00|23:10 |70 |User Stories erstellt |
 | 7.10.2024| 20:30|22:10 |100 |AddBeacon button erstellt, Returnen der UUIDs|
+| | | | | |
 | | | | *220* | |
 |===
 
@@ -60,6 +62,6 @@
 | 30.09.2024 | 10:00 | 11:00 | 30 | Login Seite erstellt |
 | 01.10.2024 | 14:40 | 16:00 | 80 | Login & Register Seite nach Mockups gestaltet |
 | 01.10.2024 | 16:30 | 16:35 | 5 | Eye Icon für die Register Seite |
-
+| | | | | |
 | | | | *205* | |
 |===

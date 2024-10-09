@@ -1,0 +1,45 @@
+= Projektantrag SpreadShare
+:toc: left
+:sectnums:
+:toclevels: 2
+:table-caption:
+
+== Projektbeschreibung
+
+=== Aufgabenstellung
+
+Die Zielsetzung dieses Projekts besteht darin, die Papierverschwendung, die durch Werbungen, Flyer, Broschüren und andere Printmedien entsteht, zu reduzieren. Ein Bluetooth-Beacon-System soll eingeführt werden, das es den Nutzern ermöglicht, Informationen automatisch auf ihrem Smartphone zu empfangen, ohne auf gedruckte Materialien zurückgreifen zu müssen. Die Informationen können gespeichert und später wieder abgerufen werden. Zudem erhalten die Besitzer der Beacons die Möglichkeit, die bereitgestellten Inhalte flexibel zu verwalten und zu aktualisieren.
+
+=== Ist-Zustand
+
+Die Papierverschwendung ist enorm. Bei Werbungen, Flyern, Broschüren und anderen Printmedien wird oft nicht auf die Umwelt geachtet. Die meisten Menschen werfen diese nach kurzer Zeit weg.
+
+== Zielsetzung
+
+=== Soll-Zustand
+
+Die Digitalisierung soll dazu beitragen, dass weniger Papier und somit weniger Ressourcen verschwendet werden. Mithilfe eines Bluetooth-Beacons soll der Nutzer automatisch die gewünschte Information auf seinem Smartphone ohne jegliche weitere Interaktion erhalten. Falls gewünscht, kann der Nutzer die Information auch speichern und später wieder abrufen. Dem Besitzer des Beacons wird die Möglichkeit gegeben, mithilfe der Applikation die Informationen zu verwalten und zu aktualisieren.
+
+=== Konsequenzen bei Nichtdurchführung
+
+* Fortlaufende Papier- und Ressourcenverschwendung durch gedruckte Werbematerialien.
+* Unveränderte Umweltbelastung durch erhöhtes Abfallaufkommen und Rohstoffverbrauch.
+* Verpasste Chance auf digitale Alternativen.
+*Keine Reduzierung von Kosten für Druck und Verteilung von Printmedien.
+
+== Ressourcen
+
+=== Personal
+
+* Arda Saydam
+** Product Owner, Entwickler
+* Fabian Stroschneider
+** Scrum Master, Entwickler
+* Ademir Kurtic
+** Entwickler
+* Antonio Ignac
+** Entwickler
+
+=== Finanziell
+
+Das Projekt erfordert zusätzliche Kosten in Form eines BLE-Beacons, um die Anwendung ordnungsgemäß zu testen. Diese belaufen sich auf unter 50€.

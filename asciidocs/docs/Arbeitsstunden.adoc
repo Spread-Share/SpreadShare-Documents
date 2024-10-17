@@ -63,5 +63,5 @@
 | 01.10.2024 | 14:40 | 16:00 | 80 | Login & Register Seite nach Mockups gestaltet |
 | 01.10.2024 | 16:30 | 16:35 | 5 | Eye Icon für die Register Seite |
 | | | | | |
-| | | | *238* | |
+| | | | *249* | |
 |===

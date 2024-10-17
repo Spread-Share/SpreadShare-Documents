@@ -61,7 +61,10 @@
 | 17.09.2024 | 19:00 | 20:30 | 90 | Erstellung der Umfeldanalyse |
 | 30.09.2024 | 10:00 | 11:00 | 30 | Login Seite erstellt |
 | 01.10.2024 | 14:40 | 16:00 | 80 | Login & Register Seite nach Mockups gestaltet |
-| 01.10.2024 | 16:30 | 16:35 | 5 | Eye Icon für die Register Seite |
+| 01.10.2024 | 16:30 | 16:35 | 05 | Eye Icon für die Register Seite |
+| 17.10.2024 | 09:00 | 09:33 | 33 | Rebuilt Login in React |
+| 17.10.2024 | 09:33 | 10:00 | 27 | Rebuilt Register in React and fixed Images |
+| 17.10.2024 | 10:00 | 10:50 | 50 | Fixed some bugs in Login and Register |
 | | | | | |
-| | | | *299* | |
+| | | | *315* | |
 |===

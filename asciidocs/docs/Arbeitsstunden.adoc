@@ -35,8 +35,10 @@
 | 21.09.2024 | 10:03 | 10:43 | 40 | Aktivitätsdiagramm erstellt |
 | 26.09.2024 | 10:08 | 10:16 | 8 | Usecasediagramm gefixt |
 | 09.10.2024 | 19:23 | 19:46 | 23 | Schreiben des Projektantrags |
+| 17.10.2024 | 14:36 | 14:47 | 11 | Angular Projekt anlegen | 
+| 18.10.2024 | 16:43 | 19:12 | 149 | Erstellen der index HTML file 
 | | | | | |
-| | | | *219* | |
+| | | | *349* | |
 |===
 
 == Ademir Kurtic
@@ -49,6 +51,7 @@
 | 21.09.2024| 22:00|23:10 |70 |User Stories erstellt |
 | 7.10.2024| 20:30|22:10 |100 |AddBeacon button erstellt, Returnen der UUIDs|
 | 10.10.2024 |10:30 |11:00 |30 | Can save data when pressing enter instead of clicking |
+| | | | | |
 | | | | *250* | |
 |===
 

@@ -36,9 +36,10 @@
 | 26.09.2024 | 10:08 | 10:16 | 8 | Usecasediagramm gefixt |
 | 09.10.2024 | 19:23 | 19:46 | 23 | Schreiben des Projektantrags |
 | 17.10.2024 | 14:36 | 14:47 | 11 | Angular Projekt anlegen | 
-| 18.10.2024 | 16:43 | 19:12 | 149 | Erstellen der index HTML file 
+| 18.10.2024 | 16:43 | 19:12 | 149 | Erstellen der index HTML file | #2
+| 21.10.2024 | 19:02 | 19:39 | 37 | Erstellen der Fußzeile | #2 
 | | | | | |
-| | | | *349* | |
+| | | | *386* | |
 |===
 
 == Ademir Kurtic

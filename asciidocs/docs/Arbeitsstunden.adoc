@@ -52,8 +52,9 @@
 | 21.09.2024| 22:00|23:10 |70 |User Stories erstellt |
 | 7.10.2024| 20:30|22:10 |100 |AddBeacon button erstellt, Returnen der UUIDs|
 | 10.10.2024 |10:30 |11:00 |30 | Can save data when pressing enter instead of clicking |
+| 22.10.2024 |13:00 |14:15 |75 | Wrote text for Homepage, Converted Files in Angular |
 | | | | | |
-| | | | *250* | |
+| | | | *320* | |
 |===
 
 == Antonio Ignac

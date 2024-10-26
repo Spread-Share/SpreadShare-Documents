@@ -1,0 +1,19 @@
+= Meilensteinliste SpreadShare
+
+|===
+| Phase | Soll-Termin | Ergebnisse
+
+| **Planung** | 15.10.2024 | Detaillierte Anforderungsanalyse abgeschlossen. Erstellung von Mockups und Entwürfen für die Benutzeroberfläche.
+| **Infrastruktur** | 28.10.2024 | Index-Grundstruktur ist fertiggetsellt
+| **Datenbank und Login** | 04.11.2024 | User können sich mit Keycloak anmelden und das Grundgerüst der Datenbank steht
+| **Admin Seite** | 20.11.2024 | Admin Seite erlaubt Mutzern das hinzufügen, löschen, bearbeiten von Beacons, sowie detailierte ansicht der vorhandenen Beacons
+| **Beacons Testphase** | 05.01.2025 | Nutzer können Nachrichten von Beacons empfangen und in der App anzeigen lassen
+| **OPTIONAL: Tdot** | 23.01.2025 | Testlauf am Tdot mit SpreadShare minispiel bei dem Nutzer durchs Schulhaus laufen und Spreads sammeln
+| **Spreads funktionieren** | 10.03.2025 | Beacons verschicken nun Spreads in form vond Dokumenten, Bildern und Nachrichten
+| **Android App benutzbar** | 15.05.2025 | Android App ist so weit fertigestellt dass Nutzer sich mit Ihrem Account anmelden und Spreads von Beacons empfangen und in der App speichern können
+| **Android App fertiggestellt** | 30.09.2025 |Android App ist fertiggestellt und benötigt keine weiteren Änderungen
+| **IOS App** | 10.01.2026 | IOS App verfügt über die gleichen Funktionen wie die Android App
+| **Testphase** | 20.02.2026 | Verteilung von Beacons und Beta Zugängen für die App an Kunden, User-Feedback wird gesammelt
+| **Optimierung** | 31.03.2026 | Optimierung der App anhand des gesammelten Feedbacks, Performance wird verbessert, mehrere durchläufe benötigt
+| **Veröffentlichung** | 15.06.2026 | Die App wird im App und Playstore freigegeben, Ersten Anwendungen in Realen Umgebungen
+|===

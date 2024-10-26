@@ -124,6 +124,9 @@ include::plantuml/Usecasediagramm.puml[]
 
 Den Verbrauch von Printmedien, Werbung, Flyern und Speisekarten zu minimieren und die Umwelt sauber zu halten.
 
+== Projektplanung
+link:Meilensteile.adoc[Meilensteine]
+
 == Rahmenbedingungen
 
 Programmiersprache: Kotlin

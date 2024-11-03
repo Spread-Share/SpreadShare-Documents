@@ -21,6 +21,9 @@
 #define SERVICE_UUID        "b3202a0a-26c3-4bd2-9855-cf231924ec0c"
 #define CHARACTERISTIC_UUID "0ad390a5-da26-43fd-b349-3a35687e611b"
 
+unsigned long previousMillis = 0;
+const long interval = 2000;  // interval in milliseconds
+
 void setup() {
   Serial.begin(115200);
   Serial.println("Starting BLE work!");
@@ -34,7 +37,7 @@ void setup() {
                                          BLECharacteristic::PROPERTY_WRITE
                                        );
 
-  pCharacteristic->setValue("Hello World!");
+  pCharacteristic->setValue("https://github.com/Spread-Share/SpreadShare-Documents");
   pService->start();
   // BLEAdvertising *pAdvertising = pServer->getAdvertising();  // this still is working for backward compatibility
   BLEAdvertising *pAdvertising = BLEDevice::getAdvertising();
@@ -46,5 +49,12 @@ void setup() {
 }
 
 void loop() {
-  delay(2000);
+   unsigned long currentMillis = millis();
+
+  if (currentMillis - previousMillis >= interval) {
+    previousMillis = currentMillis;
+    
+    // Any periodic actions you want to perform every 2 seconds
+    Serial.println("BLE is running, still advertising...");
+  }
 }

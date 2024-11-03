@@ -1,7 +1,7 @@
 = Pflichtenheft SpreadShare
 :toc: left
 :sectnums:
-:toclevels: 1
+:toclevels: 2
 :table-caption:
 
 Version: 1.1
@@ -57,6 +57,58 @@ Der Beacon-Inhaber wird die Möglichkeit haben, seinen Beacon entweder mit der A
 * Wartbarkeit
 ** Das System soll, Wartung- und Reparaturarbeiten in einfacher und schneller Weise durchführen können.
 
+== Mockups
+
+=== Index
+
+.Index-Mockup
+[%collapsible%open]
+====
+Incoming
+====
+
+=== Login & Register
+
+.Login-, Register- Mockup
+[%collapsible%open]
+====
+image::img/mockup-login-register.png[]
+
+Zuerst wird der Login-Screen angezeigt. Durch das Ausfüllen der Pflichtfelder wird das Einloggen ermöglicht. Optional kann sich der Benutzer auch durch Klicken auf das Google- oder Apple-Logo einloggen. Mit dem Augensymbol kann das Passwort entweder angezeigt oder als „*“ dargestellt werden. Durch Betätigen von „Forgot Password?“ wird eine E-Mail mit einem Link verschickt, der es ermöglicht, das Passwort zu ändern.
+
+Falls noch kein Account besteht, kann der Benutzer auf „Sign Up“ klicken und wird zur Registrierungsseite weitergeleitet. Hier müssen, wie im Login-Fenster, Daten angegeben werden, um sich registrieren zu können. Alternativ kann die Registrierung auch durch Klicken auf das Google- oder Apple-Logo erfolgen.
+====
+
+=== Notification
+
+.Notification-Mockup
+[%collapsible%open]
+====
+image::img/mockup-notification.png[]
+
+Falls sich ein Beacon in der Nähe befindet, wird eine Benachrichtigung an den Benutzer gesendet. Durch Klicken auf die Benachrichtigung wird der Benutzer zur Übersicht aller in der Nähe befindlichen Beacons weitergeleitet.
+====
+
+=== Scanner
+
+.Scanner-Mockup
+[%collapsible%open]
+====
+image::img/mockup-scanner.png[]
+====
+
+=== Location
+
+.Location-Mockup
+[%collapsible%open]
+====
+image::img/mockup-location.png[]
+
+Durch Auswahl des Inhabers eines spezifischen Beacons kann dieser den Beacon bearbeiten. Auf der linken Seite befindet sich eine Vorschau des Inhalts, der sich derzeit auf dem Beacon befindet, sowie der darunter angezeigte Link, unter dem der Inhalt gespeichert ist. Durch Klicken auf den „Edit“-Button kann neuer Inhalt hochgeladen werden.
+
+Auf der rechten Seite wird eine Karte angezeigt, die den aktuellen Standort des Beacons zeigt.
+====
+
 == Diagramme
 
 .Use-case Diagramm
@@ -72,9 +124,14 @@ include::plantuml/Usecasediagramm.puml[]
 
 Den Verbrauch von Printmedien, Werbung, Flyern und Speisekarten zu minimieren und die Umwelt sauber zu halten.
 
+== Projektplanung
+link:Meilensteile.adoc[Meilensteine]
+
 == Rahmenbedingungen
 
 Programmiersprache: Kotlin
+
+Framework: Angular
 
 Betriebssystem: Android, IOS
 

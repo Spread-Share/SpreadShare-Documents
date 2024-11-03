@@ -34,7 +34,7 @@ Kontakt: a.saydam@students.htl-leonding.ac.at
 
 Beschreibung der Projektphasen und deren überprüfbarer Zwischenergebnisse.
 
-Hier finden Sie unsere https://github.com/SaydamArda/SpreadShare/milestones[Meilensteine]
+Hier finden Sie unsere https://github.com/Spread-Share/SpreadShare-Documents/milestones[Meilensteine]
 
 == Projektdaten
 
@@ -52,7 +52,9 @@ Hier finden Sie unsere https://github.com/SaydamArda/SpreadShare/milestones[Meil
                     durch Viren oder Ähnliches.
 | Projektorganisation | Projektleiter: Arda Saydam
 
-                        Projektteam: Fabian Stroschneider, Ademir Kurtic,
+                        Scrum Master: Fabian Stroschneider
+
+                        Projektteam: Ademir Kurtic,
                         Antonio Ignac
 | Abschluss des Projektauftrags | Datum, Unterschriften aller Verantwortlichen
 |===

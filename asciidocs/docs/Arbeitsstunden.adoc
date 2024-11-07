@@ -74,6 +74,7 @@
 | 07.11.2024 | 11:00 | 12:37 | 97 | Database Architecture, Tables, and Server |
 | 07.11.2024 | 12:45 | 13:22 | 37 | Decrypt Encrypt Passwords|
 | 07.11.2024 | 19:30 | 20:37 | 67 | Login with encrypted Password and User Posting |
+| 07.11.2024 | 20:45 | 21:02 | 17 | Delete and Get all Users from Database |
 | | | | | |
-| | | | *516* | |
+| | | | *533* | |
 |===

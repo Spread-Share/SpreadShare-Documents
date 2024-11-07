@@ -72,6 +72,7 @@
 | 17.10.2024 | 09:33 | 10:00 | 27 | Rebuilt Register in React and fixed Images |
 | 17.10.2024 | 10:00 | 10:50 | 50 | Fixed some bugs in Login and Register |
 | 07.11.2024 | 11:00 | 12:37 | 97 | Database Architecture, Tables, and Server |
+| 07.11.2024 | 12:45 | 13:22 | 37 | Decrypt Encrypt Passwords|
 | | | | | |
-| | | | *412* | |
+| | | | *449* | |
 |===

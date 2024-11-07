@@ -3,6 +3,7 @@
 :sectnums:
 :toclevels: 2
 :table-caption:
+:imagesdir: /images
 
 Version: 1.1
 

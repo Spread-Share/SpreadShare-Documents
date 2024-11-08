@@ -75,8 +75,13 @@
 | 07.11.2024 | 12:45 | 13:22 | 37 | Decrypt Encrypt Passwords|
 | 07.11.2024 | 19:30 | 20:37 | 67 | Login with encrypted Password and User Posting |
 | 07.11.2024 | 20:45 | 21:02 | 17 | Delete and Get all Users from Database |
-| 07.11.2024 | 21:20 | 22:26 | 26 | REST Endpoints for Beacon |
+| 07.11.2024 | 21:20 | 22:26 | 26 | REST Endpoints for Beacon table |
 | 08.11.2024 | 09:00 | 09:06 | 06 | Post Beacon Bug fixed |
+| 08.11.2024 | 09:20 | 10:11 | 51 | Changed Database Architecture fixed Services |
+| 08.11.2024 | 10:12 | 10:31 | 19 | Change Password of User and Owner, Add Beacon to Owner |
+| 08.11.2024 | 10:32 | 11:02 | 30 | Unittests for OwnerService |
+| 08.11.2024 | 11:03 | 11:07 | 04 | Unittests for UserService |
+| 08.11.2024 | 11:45 | 12:09 | 24 | Unittests for BeaconService |
 | | | | | |
-| | | | *565* | |
+| | | | *693* | |
 |===

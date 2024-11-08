@@ -76,6 +76,7 @@
 | 07.11.2024 | 19:30 | 20:37 | 67 | Login with encrypted Password and User Posting |
 | 07.11.2024 | 20:45 | 21:02 | 17 | Delete and Get all Users from Database |
 | 07.11.2024 | 22:20 | 21:26 | 26 | REST Endpoints for Beacon |
+| 07.11.2024 | 09:00 | 09:06 | 06 | Post Beacon Bug fixed |
 | | | | | |
-| | | | *559* | |
+| | | | *565* | |
 |===
